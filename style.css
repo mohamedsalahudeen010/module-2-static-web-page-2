@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h4{
+    font-size: medium;
+}
+.container{
+    margin:  5px auto;
+    border: 3px solid black;
+    width: 90vw;
+    height: 100vh;
+    padding-left: 1rem;
+}
+span{
+    color: red;
+}
+.head-input{   
+    margin-left: 1rem; 
+    margin-top: -5px;
+    padding: 0px 5px;
+    
+}
+.email-lab{
+    margin-top: -10px; 
+}
+#email{
+    margin-top: -5px;
+    margin-left: 2rem;  
+    width: 26rem;
+    padding: 0px 5px;
+}
+#lastname{
+margin-left: 1rem;
+padding: 0px 5px;
+}
+#firstname{
+    padding: 0px 5px;
+}
+
+.head-label{
+    margin-left: 1rem;
+}
+.lastname{
+    margin-left: 11rem;
+}
+.checked{
+    color: orange;
+    
+}
+.star{
+    margin-left: 1rem;
+}
+table{
+    width: 100%;
+   
+    padding:0rem 1rem;
+}
+tr{
+    width: 0.5rem;
+}
+td{
+    
+    padding: 0.5rem;
+    width: 40rem;
+    text-align: center;
+    font-size: small;
+}
+th{
+    text-align: center;
+    font-size: small
+}
+tbody>tr:nth-child(odd){
+
+    background-color: rgba(230, 228, 228, 0.662);
+   
+}
+.btn-sumbit>button{
+    padding:2px 8px;
+    border-radius: 10%;
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+}
